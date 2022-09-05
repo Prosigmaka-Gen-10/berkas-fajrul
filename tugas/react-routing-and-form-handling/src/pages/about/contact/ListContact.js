@@ -1,24 +1,39 @@
 import { Link } from 'react-router-dom'
 
 export default function ListContact() {
-    
+
     return <>
 
-        <Link to='/about/contact/list-contact/whatsapp'>
-            Whatsapp
-        </Link>
+        <h2>List Contact :</h2>
 
-        <hr />
+        <ul>
 
-        <Link to='/about/contact/list-contact/facebook'>
-            Facebook
-        </Link>
+            <li>
+                Whatsapp | 
+                <Link to='/about/contact/list-contact/whatsapp'>
+                    Go to Whatsapp
+                </Link>
+            </li>
 
-        <hr />
+            <hr />
 
-        <Link to='/about/contact/list-contact/instagram'>
-            Instagram
-        </Link>
+            <li>
+                Facebook | 
+                <Link to='/about/contact/list-contact/facebook'>
+                    Go to Facebook page
+                </Link>
+            </li>
+
+            <hr />
+
+            <li>
+                Instagram | 
+                <Link to='/about/contact/list-contact/instagram'>
+                    Go to Instagram page
+                </Link>
+            </li>
+
+        </ul>
 
         <hr />
         <hr />
