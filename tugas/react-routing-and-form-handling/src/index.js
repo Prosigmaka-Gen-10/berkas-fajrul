@@ -11,6 +11,7 @@ import Contact from './pages/about/Contact';
 import Profile from './pages/about/Profile';
 import ListContact from './pages/about/contact/ListContact';
 import DetailContact from './pages/about/contact/DetailContact';
+import FormHandling from './pages/FormHandling';
 
 
 
@@ -26,6 +27,7 @@ root.render(
           <Route path='about/contact/list-contact' element={<ListContact />} />
           <Route path='about/contact/list-contact/:listcontact' element={<DetailContact />} />
           <Route path='about/profile' element={<Profile />} />
+          <Route path='about/profile/input-profile' element={<FormHandling />} />
         </Route>
       </Routes>
     </BrowserRouter>
