@@ -9,6 +9,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/about/Contact';
 import Profile from './pages/about/Profile';
+import ListContact from './pages/about/contact/ListContact';
+import Whatsapp from './pages/about/contact/listContact/Whatsapp';
+import Facebook from './pages/about/contact/listContact/Facebook';
+import Instagram from './pages/about/contact/listContact/Instagram';
 
 
 
@@ -21,6 +25,10 @@ root.render(
           <Route index element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='about/contact' element={<Contact />} />
+          <Route path='about/contact/list-contact' element={<ListContact />} />
+          <Route path='about/contact/list-contact/whatsapp' element={<Whatsapp />} />
+          <Route path='about/contact/list-contact/facebook' element={<Facebook />} />
+          <Route path='about/contact/list-contact/instagram' element={<Instagram />} />
           <Route path='about/profile' element={<Profile />} />
         </Route>
       </Routes>
