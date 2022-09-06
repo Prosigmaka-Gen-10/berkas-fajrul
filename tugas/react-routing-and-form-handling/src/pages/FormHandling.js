@@ -50,14 +50,14 @@ export default function FormHandling() {
             Choose Your Gender: <br />
             <input type='radio' value='l' name='gender'
                 onChange={handleGender}
-                checked={gender == 'l' ? true : false} />
+                checked={gender === 'l' ? true : false} />
             Laki-laki
         </label>
         &nbsp;&nbsp;
         <label>
             <input type='radio' value='p' name='gender'
                 onChange={handleGender}
-                checked={gender == 'p' ? true : false} />
+                checked={gender === 'p' ? true : false} />
             Perempuan
         </label>
 
