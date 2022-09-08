@@ -1,0 +1,30 @@
+{
+  "songs": [
+    {
+      "id": 3,
+      "song_title": "Ano Yume wo Nazotte",
+      "song_lyric": "Yoru no sora wo kazaru kirei na hana.",
+      "song_album": "The Book"
+    },
+    {
+      "song_title": "asdsadsa",
+      "song_lyric": "ddd",
+      "song_album": "dddd",
+      "id": 4
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "genre_name": "Alternative/Indie"
+    },
+    {
+      "id": 2,
+      "genre_name": "J-Pop"
+    },
+    {
+      "id": 1,
+      "genre_name": "R&B/Soul"
+    }
+  ]
+}
